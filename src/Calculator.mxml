@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application 
+    fontSize="16"
+    layout="horizontal" minHeight="600" minWidth="955" xmlns:mx="http://www.adobe.com/2006/mxml"
+    xmlns:robotlegs="net.fxug.samples.robotlegs.*">
+    <robotlegs:CalculatorContext contextView="{this}"/>
+    
+    <mx:TextInput id="textInput1"/>
+    <mx:Label text="+"/>
+    <mx:TextInput id="textInput2"/>
+    <mx:Label text="="/>
+    <mx:Label id="answerLabel"/>
+</mx:Application>
